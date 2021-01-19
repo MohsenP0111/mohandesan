@@ -1,0 +1,47 @@
+.Menu {
+  height: 12vh;
+}
+
+@media screen and (min-height: 1000px) {
+  .Menu {
+    height: 6vh;
+  }
+}
+
+.insideMenu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  overflow-x: scroll;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.insideMenu::-webkit-scrollbar {
+  display: none;
+}
+
+.btn {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: center;
+  display: block;
+  border-radius: 2px;
+  background: #202e31;
+  color: #f1ae35;
+  font-family: Dark-Sans;
+  font-size: 11px;
+  width: 170px;
+  height: 50px;
+  margin: 10px 5px;
+  padding: 1px 0px;
+  overflow: hidden;
+}
+.btn:hover {
+  background: #f1ae35;
+  color: #202e31;
+  border: none;
+}
+.subset {
+  margin-bottom: 0;
+}

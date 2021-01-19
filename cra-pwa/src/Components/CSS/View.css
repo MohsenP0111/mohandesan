@@ -1,0 +1,21 @@
+.View {
+  background-color: white;
+  height: 81.9vh;
+  margin-top: 0;
+}
+
+@media screen and (min-height: 1000px) {
+  .Menu {
+    height: 86.9vh;
+  }
+}
+
+.embedobject {
+  height: 100%;
+  width: 100%;
+}
+
+.embed {
+  height: 100%;
+  width: 100%;
+}
